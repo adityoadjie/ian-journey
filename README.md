@@ -28,3 +28,4 @@ Sebagai contoh untuk menampilkan tanggal dan waktu pada remote host:
 ansible group1 -i myhosts -m command -a date
 
 group1 adalah group yang dijalankan, myhost adalah nama inventory file, date adalah argumen dari module command.
+ 
